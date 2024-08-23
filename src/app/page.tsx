@@ -200,6 +200,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Image
+        src={"/map.jpg"}
+        width={2000}
+        height={0}
+        alt="map"
+        className="grayscale-[50%]"
+      />
     </>
   );
 }
