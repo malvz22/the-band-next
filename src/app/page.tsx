@@ -3,12 +3,12 @@ import Image from "next/image";
 import Hero from "./Components/Hero";
 import { FaMailBulk, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { Alert, Dropdown } from "flowbite-react";
 
 export default function Home() {
   return (
     <>
-      <div className="max-w-[2000px] m-auto">
-        <Hero />
+      <div className="max-w-[2000px] m-auto mx-auto">
         <section
           id="band-section"
           className="container max-w-[800px] mx-auto py-[64px] px-[16px]"
@@ -205,7 +205,7 @@ export default function Home() {
         width={2000}
         height={0}
         alt="map"
-        className="grayscale-[50%]"
+        className="grayscale-[50%] mx-auto"
       />
     </>
   );
