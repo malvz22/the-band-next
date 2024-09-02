@@ -8,6 +8,7 @@ import { Alert, Dropdown } from "flowbite-react";
 export default function Home() {
   return (
     <>
+      <Hero />
       <div className="max-w-[2000px] m-auto mx-auto">
         <section
           id="band-section"
