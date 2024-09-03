@@ -23,18 +23,30 @@ export default function Navbar() {
               HOME
             </a>
             <div className="hidden sm:flex flex-row">
-              <p className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer">
+              <a
+                href="#band-section"
+                className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer"
+              >
                 BAND
-              </p>
-              <p className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer">
+              </a>
+              <a
+                href="#tour-section"
+                className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer"
+              >
                 TOUR
-              </p>
-              <p className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer">
+              </a>
+              <a
+                href="#contact-section"
+                className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer"
+              >
                 CONTACT
-              </p>
-              <p className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer">
+              </a>
+              <a
+                href="#"
+                className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer"
+              >
                 MORE
-              </p>
+              </a>
             </div>
           </div>
           <div className="hidden sm:flex text-white px-6 py-3 items-center hover:bg-red-500">
