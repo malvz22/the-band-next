@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -31,10 +32,18 @@ export default function Footer() {
           <FaLinkedin size={24} className="text-[#666666] hover:opacity-55" />
         </div>
         <div className="flex flex-col text-center md:flex-row gap-4 text-[15px] opacity-70">
-          <p>Home</p>
-          <p>Band</p>
-          <p>Tour</p>
-          <p>Contact</p>
+          <Link href={"#"}>
+            <p>Home</p>
+          </Link>
+          <Link href={"#band-section"}>
+            <p>Band</p>
+          </Link>
+          <Link href={"#tour-section"}>
+            <p>Tour</p>
+          </Link>
+          <Link href={"#contact-section"}>
+            <p>Contact</p>
+          </Link>
         </div>
       </div>
     </>
