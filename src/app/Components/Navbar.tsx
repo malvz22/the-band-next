@@ -3,12 +3,18 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { TiArrowSortedDown } from "react-icons/ti";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  const [showMore, setShowMore] = useState(false);
 
   function handleClick() {
     setShowMenu(!showMenu);
+  }
+
+  function handleHover() {
+    setShowMore(!showMore);
   }
 
   return (
@@ -41,12 +47,30 @@ export default function Navbar() {
               >
                 CONTACT
               </a>
-              <a
-                href="#"
-                className="px-6 py-3 text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer"
+              <div
+                onClick={handleHover}
+                className="flex flex-row px-6 py-3 items-center text-white hover:bg-[#CCCCCC] hover:text-black cursor-pointer relative"
               >
-                MORE
-              </a>
+                <p>MORE</p>
+                <TiArrowSortedDown />
+                <div
+                  className={
+                    showMore
+                      ? "absolute flex flex-col translate-x-[-50%] translate-y-[-50%] top-[250%] left-[55.6%]"
+                      : "hidden"
+                  }
+                >
+                  <p className="bg-white px-4 py-3 text-black hover:bg-[#CCCCCC]">
+                    Merchandise
+                  </p>
+                  <p className="bg-white px-4 py-3 text-black hover:bg-[#CCCCCC]">
+                    Extras
+                  </p>
+                  <p className="bg-white px-4 py-3 text-black hover:bg-[#CCCCCC]">
+                    Media
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="hidden sm:flex text-white px-6 py-3 items-center hover:bg-red-500">
