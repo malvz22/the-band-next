@@ -15,23 +15,22 @@ export default function Home() {
           className="container max-w-[800px] mx-auto py-[64px] px-[16px]"
         >
           <h1 className="text-center text-[30px] tracking-[4px] my-[10px]">
-            THE BAND
+            MOONLIT SIRENS
           </h1>
           <p className=" text-center text-[15px] italic opacity-75 my-[15px]">
-            We love music
+            R&B/Soul
           </p>
           <p className="text-[15px]">
-            We have created a fictional band website. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            We are Moonlit Sirens, a group of passionate musicians dedicated to
+            crafting unforgettable experiences through our music. From soulful
+            ballads to electrifying rock anthems, our sound is a fusion of R&B
+            and Soul that resonates with listeners from all walks of life. Join
+            us on our musical journey as we share our latest tracks, exclusive
+            behind-the-scenes content, and upcoming tour dates. Whether you're
+            here to discover new music or stay up-to-date with our latest
+            performances, we're thrilled to have you as part of our growing
+            community. Let the music move you – explore our site and dive into
+            the world of Moonlit Sirens.
           </p>
           <div className="flex flex-col md:flex-row justify-around py-[32px]">
             <div className="flex flex-col items-center text-center md:max-w-[150px]">

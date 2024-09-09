@@ -73,9 +73,9 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div className="hidden sm:flex text-white px-6 py-3 items-center hover:bg-red-500">
+          {/* <div className="hidden sm:flex text-white px-6 py-3 items-center hover:bg-red-500">
             <FaSearch className="text-white" />
-          </div>
+          </div> */}
           <div
             className="flex sm:hidden text-white hover:text-black px-6 py-3 items-center hover:bg-[#cccccc]"
             onClick={handleClick}
