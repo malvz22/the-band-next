@@ -34,9 +34,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col md:flex-row justify-around py-[32px]">
             <div className="flex flex-col items-center text-center md:max-w-[150px]">
-              <p className="py-[15px]">Name</p>
+              <p className="py-[15px] font-bold">Vinyl Ace</p>
               <Image
-                src={"/bandmember.jpg"}
+                src={"/bandmember1.jpg"}
                 width={400}
                 height={0}
                 alt="bandmember"
@@ -44,9 +44,9 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col items-center text-center md:max-w-[150px]">
-              <p className="py-[15px]">Name</p>
+              <p className="py-[15px] font-bold">Jet Skyler</p>
               <Image
-                src={"/bandmember.jpg"}
+                src={"/bandmember2.jpg"}
                 width={400}
                 height={0}
                 alt="bandmember"
@@ -54,9 +54,9 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col items-center text-center md:max-w-[150px]">
-              <p className="py-[15px]">Name</p>
+              <p className="py-[15px] font-bold">Noir Sonata</p>
               <Image
-                src={"/bandmember.jpg"}
+                src={"/bandmember3.jpg"}
                 width={400}
                 height={0}
                 alt="bandmember"
